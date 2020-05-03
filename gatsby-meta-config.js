@@ -1,7 +1,7 @@
 module.exports = {
   title: `hong_devlog`,
   description: `Devlog`,
-  author: `hong._.dev`,
+  author: `hongdev`,
   introduction: `Trying to be a good developer`,
   siteUrl: `https://hong-dev.github.io/`, // Your blog site url
   social: {
