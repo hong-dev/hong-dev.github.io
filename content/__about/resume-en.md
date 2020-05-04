@@ -10,9 +10,6 @@ lang: 'en'
 
 # HONG_DEV
 
-
-## :warning: 현재 블로그 이전중이라 글이 없습니다..ㅜㅜ
-
 <img src="https://user-images.githubusercontent.com/53142539/80919488-19c9d780-8da5-11ea-8b12-3d98543d4112.JPG" alt="HONG" width=220px style="border-radius:50%">
 <br>
 <p style="font-weight:bold; font-size:1.3em">#python</p>
