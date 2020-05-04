@@ -1,7 +1,7 @@
 ---
-title: 'BF-TEST Retrospective'
+title: '[BF-TEST] Retrospective'
 date: 2020-5-3 16:21:13
-category: 'Project'
+category: 'project'
 thumbnail: ''
 tags:
   - "Backend"
