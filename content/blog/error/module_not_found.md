@@ -1,5 +1,5 @@
 ---
-title: "[Django] Today's Error: ModuleNotFoundError"
+title: "[Django] ModuleNotFoundError"
 date: "2020-02-20T10:12:03.284Z"
 template: "post"
 draft: false
