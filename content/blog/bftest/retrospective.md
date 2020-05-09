@@ -10,6 +10,7 @@ tags:
   - "Retrospective"
   - "Python"
   - "Django"
+description: ""
 draft: false
 ---
 
