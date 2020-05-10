@@ -7,7 +7,7 @@ import { THEME } from '../../constants'
 import './index.scss'
 
 function getTheme(checked) {
-  return checked ? THEME.DARK : THEME.LIGHT
+  return checked ? THEME.LIGHT : THEME.LIGHT  //DARK, LIGHT인데 LIGHT, LIGHT로 바꿔둠
 }
 
 function toggleTheme(theme) {
