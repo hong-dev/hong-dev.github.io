@@ -42,9 +42,6 @@ socialImage: ""
 ---
 
 <br>
-<br>
-
-❗_수정한 부분의 코드만 기재함_
 
 ## border
 > src/components/thumbnail-item/index.scss
