@@ -4,7 +4,7 @@ date: "2020-04-07T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "counter"
-category: "python"
+category: "algorithm"
 tags:
   - "Python"
   - "Algorithm"
