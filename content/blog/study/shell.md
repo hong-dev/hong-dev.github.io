@@ -4,7 +4,7 @@ date: "2020-02-15T19:12:03.284Z"
 template: "post"
 draft: false
 slug: "linux/shell"
-category: "linux"
+category: "concepts"
 tags:
   - "Linux"
   - "Shell"

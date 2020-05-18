@@ -4,7 +4,7 @@ date: "2020-01-29T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "web_history"
-category: "web"
+category: "concepts"
 tags:
   - "Web"
   - "Internet"

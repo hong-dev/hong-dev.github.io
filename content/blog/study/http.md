@@ -4,7 +4,7 @@ date: "2020-02-17T13:12:03.284Z"
 template: "post"
 draft: false
 slug: "web/http"
-category: "web"
+category: "concepts"
 tags:
   - "Web"
   - "HTTP"

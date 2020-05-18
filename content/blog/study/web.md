@@ -4,7 +4,7 @@ date: "2020-02-16T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "web"
-category: "web"
+category: "concepts"
 tags:
   - "Web"
 description: "Hosting, IP address, Domain, DNS, deploy"

@@ -1,10 +1,10 @@
 ---
-title: "Data Structure"
+title: "Data Structure 자료구조"
 date: "2020-03-12T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "data/structure"
-category: "data"
+category: "concepts"
 tags:
   - "Data"
 description: "자료구조 : List, Set, Dictionary, Tuple, Tree, Stack, Queue"

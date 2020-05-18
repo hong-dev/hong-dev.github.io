@@ -4,7 +4,7 @@ date: "2020-02-19T10:12:03.284Z"
 template: "post"
 draft: false
 slug: "modeling"
-category: "data"
+category: "project"
 tags:
   - "Modeling"
   - "Aquerytool"

@@ -1,10 +1,10 @@
 ---
 title: "[CodeKata] 5"
-date: "2020-02-23T11:12:03.284Z"
+date: "2020-02-19T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "python/codekata_5"
-category: "python"
+category: "algorithm"
 tags:
   - "Python"
   - "CodeKata"

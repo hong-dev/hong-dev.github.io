@@ -4,7 +4,7 @@ date: "2020-02-15T21:12:03.284Z"
 template: "post"
 draft: false
 slug: "linux"
-category: "linux"
+category: "concepts"
 tags:
   - "Linux"
 description: "Linux의 개념, path"

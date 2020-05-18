@@ -4,7 +4,7 @@ date: "2020-02-15T20:12:03.284Z"
 template: "post"
 draft: false
 slug: "linux/terminal"
-category: "linux"
+category: "concepts"
 tags:
   - "Linux"
   - "Terminal"

@@ -81,3 +81,8 @@ def solution(arrangement):
 <br>
 
 > Reference: [프로그래머스 스택/큐 쇠막대기 문제](https://programmers.co.kr/learn/challenges)
+
+<br>
+<br>
+
+> wecode, 위코드

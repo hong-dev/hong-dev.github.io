@@ -4,7 +4,7 @@ date: "2020-02-10T17:12:03.284Z"
 template: "post"
 draft: false
 slug: "python/codekata_1"
-category: "python"
+category: "algorithm"
 tags:
   - "Python"
   - "CodeKata"
