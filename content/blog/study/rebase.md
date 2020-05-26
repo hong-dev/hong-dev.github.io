@@ -4,7 +4,7 @@ date: "2020-03-13T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "git/rebase"
-category: "git"
+category: "commands"
 tags:
   - "Git"
 description: "git rebase: commit 정리하기"

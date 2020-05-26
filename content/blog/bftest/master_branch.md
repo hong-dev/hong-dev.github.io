@@ -1,7 +1,7 @@
 ---
 title: 'git master branch에서 push 못하게 설정'
 date: 2020-4-21 16:21:13
-category: 'git'
+category: 'commands'
 thumbnail: ''
 tags:
   - "Backend"

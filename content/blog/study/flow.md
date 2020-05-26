@@ -4,7 +4,7 @@ date: "2020-03-17T11:12:03.284Z"
 template: "post"
 draft: false
 slug: "git/flow"
-category: "git"
+category: "concepts"
 tags:
   - "Git"
 description: "git flow: 어떻게 git을 활용해야 할 것인가"
