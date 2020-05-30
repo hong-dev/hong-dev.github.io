@@ -16,6 +16,7 @@ export default class HTML extends React.Component {
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
+          <div style={{ display: 'none' }}><img class='profile_img' src="https://user-images.githubusercontent.com/53142539/80919488-19c9d780-8da5-11ea-8b12-3d98543d4112.JPG"></img></div>
           <noscript>You need to enable JavaScript to run this app.</noscript>
           <div
             key={`body`}
