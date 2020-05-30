@@ -17,7 +17,8 @@ lang: 'en'
 <p style="font-weight:bold; font-size:1.3em">#python</p>
 
 <br>
-<br>
+
+🎃 Trying to be a better person
 
 :fire: 좌우명은 해봐야 안다! 무의미한 경험은 없다고 생각합니다.
 

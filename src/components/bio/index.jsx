@@ -23,14 +23,16 @@ export const Bio = () => (
                 }}
               />
               <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
+                <span className="author-name-prefix">Hello, I'm</span>
                 <Link to={'/about'} className="author-name-content">
-                  <span>@{author}</span>
+                  <span style={{ color: '#335c91' }}>@{author}</span>
                 </Link>
-                <div className="author-introduction">{introduction}</div>
+                <div className="author-introduction" style={{ color: '#7e7d7d' }}>{introduction}</div>
                 <p className="author-socials">
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`} style={{ color: '#335c91' }}>
+                      🍓Github
+                    </a>
                   )}
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>
@@ -46,8 +48,8 @@ export const Bio = () => (
                     </a>
                   )}
                   {social.instagram && (
-                    <a href={`https://www.instagram.com/${social.instagram}/`}>
-                      Instagram
+                    <a href={`https://www.instagram.com/${social.instagram}/`} style={{ color: '#335c91' }}>
+                      🍋Instagram
                     </a>
                   )}
                 </p>
