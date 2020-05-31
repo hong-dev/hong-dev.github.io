@@ -8,9 +8,7 @@ export const ThumbnailItem = ({ node }) => (
   <Link className={`thumbnail ${TARGET_CLASS}`} to={node.fields.slug}>
     <div key={node.fields.slug}>
       <h3>
-        <span>
-          {node.frontmatter.title || node.fields.slug}
-        </span>
+        {node.frontmatter.title || node.fields.slug}
       </h3>
       <p>
         <time className="thumbnail-date">
