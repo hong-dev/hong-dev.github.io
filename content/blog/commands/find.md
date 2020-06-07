@@ -87,17 +87,27 @@ django로 프로젝트를 하다가 MySQL에서 table이나 database를 drop하�
 4. `-not -name "__init__.py"` : init 파일을 제외하고
 5. `-delete` : 삭제
 
-migrate를 하면 migrations directory 안에 저장되기 때문에 그 안에 있는 파일들을 삭제하겠다는 것.  
-> `__init__.py`는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.  
-하지만, python 3.3 버전부터는 이 파일이 없어도 패키지로 인식한다고 한다.  
-어쩐지.. init 파일까지 모두 삭제하고 migrate를 다시 해도 문제없이 인식하고 테이블을 생성되더라..
-
 ```bash
 find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
 ```
 
 
+migrate를 하면 migrations directory 안에 저장되기 때문에 그 안에 있는 파일들을 삭제하겠다는 것.  
+> `__init__.py`는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.  
+하지만, python 3.3 버전부터는 이 파일이 없어도 패키지로 인식한다고 한다.  
+어쩐지.. init 파일까지 모두 삭제하고 migrate를 다시 해도 문제없이 인식하고 테이블을 생성되더라..
+
+
+
+
 <br>
 <br>
 
-> Reference : [점프 투 파이썬 - 패키지](https://wikidocs.net/1418#:~:text=__init__.py%20%ED%8C%8C%EC%9D%BC%EC%9D%80%20%ED%95%B4%EB%8B%B9%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%EA%B0%80%20%ED%8C%A8%ED%82%A4%EC%A7%80,%ED%8C%A8%ED%82%A4%EC%A7%80%EB%A1%9C%20%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80%20%EC%95%8A%EB%8A%94%EB%8B%A4.)
+### _Reference_
+
+> [_점프 투 파이썬 - 패키지_](https://wikidocs.net/1418#:~:text=__init__.py%20%ED%8C%8C%EC%9D%BC%EC%9D%80%20%ED%95%B4%EB%8B%B9%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%EA%B0%80%20%ED%8C%A8%ED%82%A4%EC%A7%80,%ED%8C%A8%ED%82%A4%EC%A7%80%EB%A1%9C%20%EC%9D%B8%EC%8B%9D%EB%90%98%EC%A7%80%20%EC%95%8A%EB%8A%94%EB%8B%A4.)
+
+<br>
+<br>
+
+> \#wecode #위코드
