@@ -3,7 +3,7 @@ title: "Thumbnail과 Post page에 category 정보 넣기"
 date: "2020-05-31T10:12:03.284Z"
 template: "post"
 draft: false
-category: "react"
+category: "gatsby"
 tags:
   - "React"
   - "Blog"

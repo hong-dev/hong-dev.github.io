@@ -4,7 +4,7 @@ date: "2020-05-04T10:12:03.284Z"
 template: "post"
 draft: false
 slug: "blog/build_gatsby_blog"
-category: "react"
+category: "gatsby"
 tags:
   - "React"
   - "Blog"
