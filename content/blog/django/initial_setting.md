@@ -50,11 +50,129 @@ vi .gitignore
 
 ## 2) cors-headers
 
+cors-headers를 설정해주지 않으면, frontend와 연결되지 않아 front에서 아무리 요청해도 우리는 요청을 받을 수 없다.  
+frontend와의 connection을 위한 필수 설정!
+
+<br>
+
+* :one: cors에 대한 처리를 원활하게 도와줄 플러그인 `django-cors-headers`를 설치한다.
+
+  ```bash
+  pip install django-cors-headers
+  ```
+
+<br>
+
+* :two: settings.py의 INSTALLED_APPS 추가
+
+  ```python
+  INSTALLED_APPS = [
+  ...
+      'django.contrib.staticfiles',
+		  'corsheaders'
+  ]
+  ```
+
+<br>
+
+* :three: settings.py의 MIDDLEWARE 추가
+
+  ```python
+  MIDDLEWARE = [
+    ...
+      'corsheaders.middleware.CorsMiddleware',
+    ...
+  ]
+  ```
+
+<br>
+
+* :four: settings.py의 제일 마지막에 관련 code 추가
+
+  ```python
+  ##CORS
+  CORS_ORIGIN_ALLOW_ALL=True
+  CORS_ALLOW_CREDENTIALS = True
+
+  CORS_ALLOW_METHODS = (
+      'DELETE',
+      'GET',
+      'OPTIONS',
+      'PATCH',
+      'POST',
+      'PUT',
+  )
+
+  CORS_ALLOW_HEADERS = (
+      'accept',
+      'accept-encoding',
+      'authorization',
+      'content-type',
+      'dnt',
+      'origin',
+      'user-agent',
+      'x-csrftoken',
+      'x-requested-with',
+  )
+  ```
+
 ## 3) my_settings
 
 Database나 Secret key와 같은 정보는 git에 올라가면 안 되는, secret하게 관리되어야 하는 정보다.  
 그래서 settings.py에 그 정보를 바로 넣는 것이 아니라 별도의 파일로 관리해야 한다.  
 
+<br>
+
+* startproject를 했다면, 가장 상위의 폴더에 들어가서 my_settings.py를 생성한다. (manage.py와 같은 레벨인 폴더에서 생성)
+
+  ```python
+  django-admin startproject '하고싶은 프로젝트 명'
+  cd '생성한 프로젝트 폴더명'
+  touch my_settings.py
+  ```
+
+<br>
+
+* `my_settings.py` 안에 쓰여지는 내용의 예시  
+이 외에도, git에 올리고 싶지 않은 config 내용, 외부 API(SNS 로그인, AWS 접속용 정보)도 기록할 수 있다.
+
+  ```python
+  DATABASES = {
+      'default' : {
+          'ENGINE': 'django.db.backends.mysql',
+          'NAME': 'DATABASE 명',
+          'USER': 'DB접속 계정명', #주로 'root'
+          'PASSWORD': 'DB접속용 비밀번호',
+          'HOST': '실제 DB 주소',
+          'PORT': '포트번호',
+      }
+  }
+
+  SECRET = {
+          'secret':'시크릿키',
+  }
+  ```
+
+<br>
+
+* 이 내용을 `settings.py`에 적용하려면, 아래와 같은 방식으로 적용할 수 있다.
+
+  ```python
+  import my_settings
+
+  DATABASE = my_settings.DATABASES
+  SECRET_KEY = my_settings.SECRET
+  ```
+
+<br>
+
+* **my_settings.py를 만들고 가장 중요한 것은, `.gitignore`에 추가하는 것!**  
+파일 이름만 한 줄 추가해주면 된다.
+
+  ```python
+  ### personal ###
+  my_settings.py
+  ```
 
 
 ## 4) commentary (주석처리)
