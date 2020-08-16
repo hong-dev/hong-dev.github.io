@@ -25,6 +25,7 @@ width를 바꾸고 darkmode를 없애보자! (gatsby-starter-bee 테마 기준)
 
 ## 본문의 width 변경하기
 > src/layout/index.jsx
+
 ```js
 export const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -38,8 +39,7 @@ export const Layout = ({ location, title, children }) => {
           marginRight: `auto`,
           maxWidth: rhythm(35), //여기 숫자를 바꾸면 너비가 변경된다!
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+        }}>
         <ThemeSwitch />
         <Header title={title} location={location} rootPath={rootPath} />
         {children}
