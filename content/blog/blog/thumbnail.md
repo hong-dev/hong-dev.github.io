@@ -3,7 +3,6 @@ title: "Edit Post Thumbnail"
 date: "2020-05-09T10:12:03.284Z"
 template: "post"
 draft: false
-slug: "blog/thumbnail"
 category: "gatsby"
 tags:
   - "React"
