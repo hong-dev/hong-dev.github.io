@@ -3,7 +3,6 @@ title: "Change width, Delete dark-mode"
 date: "2020-05-10T10:12:03.284Z"
 template: "post"
 draft: false
-slug: "blog/layout_darkmode"
 category: "gatsby"
 tags:
   - "React"

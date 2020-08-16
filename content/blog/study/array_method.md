@@ -3,7 +3,6 @@ title: "[JS] Array([ ]) method"
 date: "2020-01-30T11:12:03.284Z"
 template: "post"
 draft: false
-slug: "javascript/array_method"
 category: "javascript"
 tags:
   - "JavaScript"

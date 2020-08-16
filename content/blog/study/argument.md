@@ -3,7 +3,6 @@ title: "[JS] argument가 parameter 개수보다 적을 경우의 문제"
 date: "2020-01-30T11:12:03.284Z"
 template: "post"
 draft: false
-slug: "javascript/quiz_argument"
 category: "javascript"
 tags:
   - "JavaScript"
