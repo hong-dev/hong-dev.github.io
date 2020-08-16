@@ -3,7 +3,6 @@ title: "Set Operation"
 date: "2020-04-08T11:12:03.284Z"
 template: "post"
 draft: false
-slug: "set"
 category: "python"
 tags:
   - "Python"

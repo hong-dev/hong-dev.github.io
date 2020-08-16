@@ -3,7 +3,6 @@ title: "Logout API using Cache"
 date: "2020-05-25T11:12:03.284Z"
 template: "post"
 draft: false
-slug: "logout"
 category: "django"
 tags:
   - "Django"
