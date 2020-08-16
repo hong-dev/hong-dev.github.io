@@ -3,7 +3,6 @@ title: "Backend"
 date: "2020-02-16T12:12:03.284Z"
 template: "post"
 draft: false
-slug: "backend"
 category: "concepts"
 tags:
   - "Backend"
