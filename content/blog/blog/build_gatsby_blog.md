@@ -6,7 +6,6 @@ draft: false
 slug: "blog/build_gatsby_blog"
 category: "gatsby"
 tags:
-  - "React"
   - "Blog"
   - "Gatsby"
 description: "Gatsby starter를 활용한 Github Blog 시작하기"

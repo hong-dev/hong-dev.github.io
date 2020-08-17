@@ -5,7 +5,6 @@ template: "post"
 draft: false
 category: "gatsby"
 tags:
-  - "React"
   - "Blog"
   - "Gatsby"
 description: "gatsby blog의 본문 width 변경, dark mode 삭제"

@@ -5,7 +5,6 @@ template: "post"
 draft: false
 category: "gatsby"
 tags:
-  - "React"
   - "Blog"
   - "Gatsby"
 description: "gatsby blog의 thumbnail list 바꾸기"

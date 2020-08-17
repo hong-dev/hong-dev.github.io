@@ -5,7 +5,6 @@ template: "post"
 draft: false
 category: "gatsby"
 tags:
-  - "React"
   - "Blog"
   - "Gatsby"
 description: "Gatsby 블로그에서 포스팅마다 설정한 category 정보를 썸네일과 본문 페이지에서 보여주기"
