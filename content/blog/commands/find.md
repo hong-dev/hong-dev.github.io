@@ -95,7 +95,7 @@ find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
 migrate를 하면 migrations directory 안에 저장되기 때문에 그 안에 있는 파일들을 삭제하겠다는 것.  
 > `__init__.py`는 해당 디렉터리가 패키지의 일부임을 알려주는 역할을 한다.  
 하지만, python 3.3 버전부터는 이 파일이 없어도 패키지로 인식한다고 한다.  
-어쩐지.. init 파일까지 모두 삭제하고 migrate를 다시 해도 문제없이 인식하고 테이블을 생성되더라..
+어쩐지.. init 파일까지 모두 삭제하고 migrate를 다시 해도 문제없이 인식하고 테이블이 생성되더라니..:joy:
 
 
 
