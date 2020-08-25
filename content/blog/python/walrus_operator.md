@@ -26,28 +26,30 @@ socialImage: ""
 
 * 이 operator의 기능은, 변수를 assign 하고 그것을 표현식 안에서 바로 사용할 수 있도록 한다.
 
-```python
-nums = [1, 2, 3, 4]
-length_nums = len(nums)
+  ```python
+  nums = [1, 2, 3, 4]
+  length_nums = len(nums)
 
-if length_nums > 3:
-    print(length_nums)
-```
+  if length_nums > 3:
+      print(length_nums)
+  ```
 
 * 위의 코드를 walrus operator를 사용해서 바꿔본다면,
 
-```python
-nums = [1, 2, 3, 4]
+  ```python
+  nums = [1, 2, 3, 4]
 
-if (length_nums := len(nums)) > 3:
-    print(length_nums)
-```
+  if (length_nums := len(nums)) > 3:
+      print(length_nums)
+  ```
 
-:arrow_right: len(nums)를 새로운 변수 lenght_nums에 할당을 해주고 if문에 넣어야 하는데, `:=`를 사용하면 할당하는 동시에 if문에서 변수로 사용 가능하다는 것!
+  :arrow_right: len(nums)를 새로운 변수 lenght_nums에 할당을 해주고 if문에 넣어야 하는데, `:=`를 사용하면 할당하는 동시에 if문에서 변수로 사용 가능하다는 것!
 
 <br>
 
 * if문 말고도 while문, list, list comprehension, lambda, f-strings 등 다양한 곳에서 사용할 수 있다.
+
+<br>
 
 * `python 3.8` 이후부터 적용되는 것이어서, 이전 버전에서 `:=` 를 사용하면 `SyntaxError: invalid syntax`가 발생한다.
 
@@ -55,15 +57,25 @@ if (length_nums := len(nums)) > 3:
 
 ## Criticisms
 
-이 operator가 만들어질 때 논란도 많았다고 한다. 반대하는 입장은 이러했다.
+**이 operator가 만들어질 때 논란도 많았다고 한다. 반대하는 입장은 이러했다.**
+
+<p>
 
 * assignment를 위한 operator는 `=`가 이미 있는데, `:=`으로도 assign만 하는 게 가능하기 때문에 처음하는 사람들은 헷갈릴 수 있다.
+
+</p>
+<p>
 
 * Zen of Python에 따르면, 단 한가지 분명한 방법만 있어야 한다고 했다.  
 그런데 `:=`는 이미 존재하는 방법들과 똑같은 기능을 한다. 굳이 왜 또 만든다는 것이냐.
 
+</p>
+<p>
+
 * Zen of Python에 따르면, 복잡한 것보다 심플한 게 낫다고 했다.  
 `:=`는 심플해보이지만 공백을 줄인다는 명목으로 실제로는 더 복잡성이 증가된다.
+
+</p>
 
 * 얼마나 많은 개발자들이 이걸 사용할지 테스트가 충분히 되지 않았다.
 
