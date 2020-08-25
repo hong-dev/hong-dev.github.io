@@ -1,5 +1,5 @@
 ---
-title: "Pandas DataFrame"
+title: "Pandas DataFrame을 사용한 User별 점수 Ranking"
 date: "2020-04-04T11:12:03.284Z"
 template: "post"
 draft: false
@@ -34,6 +34,8 @@ socialImage: ""
    - completion_score => 완성도 기준
    - total_score => 위의 4개를 합친 총점 기준
 ```
+
+<br>
 
 ### Dataframe
 * [pandas.DataFrame으로 정규화하기](https://hong-dev.github.io/posts/project_wepizza/normalization)
@@ -76,12 +78,15 @@ def get_ranking(ranking_list, order_by, limit):
     return ordered_table
 ```
 
+<br>
 
 ### Annotate
 * User별로 가진 score 정보들의 평균, 총합 등을 계산해서 return하기 위해 annotate 사용
 ```python
 User.objects.annotate(total_count = Count('score'))
 ```
+
+<br>
 
 ### DataFrame에서 값 추출
 * dataframe의 id 필드의 값이 1이다
@@ -97,15 +102,17 @@ dataframe[dataframe['id'] == 1]['total_score']
 float(dataframe[dataframe['id'] == 1]['total_score'])
 ```
 
+<br>
+
 ### List Comprehension에서 짧은 변수명으로 바꾸기
-* original 방법\
+* **original 방법**  
 dictionary에서 값을 적을 때, 전체 변수명을 다 적어줘야 한다.
 ```python
 [{"key" : ranking_list.get(id = id_number)}
    for ranking_list.get(id = id_number) in dataframe]
 ```
 
-* 변수명 바꾸기 (if :=)\
+* **변수명 바꾸기 (`if :=`)**  
 ranking\_list.get(id = id_number)라는 변수를 user에 새로 할당해줘서 변수명 'user'를 사용한다.
 ```python
 [{"key" : user.name}
@@ -113,7 +120,10 @@ ranking\_list.get(id = id_number)라는 변수를 user에 새로 할당해줘서
    if (user := ranking_list.get(id = id_number))]
 ```
 
-### UserRankView Code
+<br>
+---
+
+### UserRankView Source Code
 ```python
 from django.db.models import Sum, Avg, Min, Count
 
@@ -171,6 +181,8 @@ class UserRankView(View): #Thinking_2
 
         return JsonResponse({"ranking" : user_ranking}, status = 200)
 ```
+
+<br>
 
 ### Thinking
 * **Thinking_1 :** annotate로 만든 average field들을 또 사용해서 계산하고 싶을 때, annotate 안에서는 방금 만든 field를 그대로 사용할 수가 없다.\
