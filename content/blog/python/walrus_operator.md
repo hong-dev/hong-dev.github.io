@@ -21,6 +21,9 @@ socialImage: ""
 이런 귀여운 이름이라니 :joy:  
 ![Walrus](https://user-images.githubusercontent.com/53142539/91169544-811fe480-e712-11ea-9ef0-1ed0a4c7a24c.png)
 
+ `Effective Python` 책에도 이 assignment expression에 대한 설명이 있다.  
+ :arrow_right: 관련해서 적은 글: [_Effective Python: Second Edition [Item 10]_](https://hong-dev.github.io/effective_python/item_8_to_10/)
+
 
 ## How to use
 
