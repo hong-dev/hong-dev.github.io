@@ -60,7 +60,7 @@
 <br>
 <ul>
 <li>
-<p>기본적인 slicing 문법은 <code class="language-text">somelist[startindex:endindex]</code> (start부터 포함되고, end는 포함되지 않는다.)</p>
+<p>기본적인 slicing 문법은 <code class="language-text">somelist[startindex: endindex]</code> (start부터 포함되고, end는 포함되지 않는다.)</p>
 <div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">nums <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">]</span>
 
 nums<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span>
@@ -188,7 +188,7 @@ a <span class="token operator">==</span> b <span class="token operator">==</span
 <hr>
 <h2 id="item-12-avoid-striding-and-slicing-in-a-single-expression" style="position:relative;"><a href="#item-12-avoid-striding-and-slicing-in-a-single-expression" aria-label="item 12 avoid striding and slicing in a single expression permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Item 12: Avoid Striding and Slicing in a Single Expression</h2>
 <ul>
-<li>기본적인 striding의 문법은: <code class="language-text">somelist[start🔚stride]</code><br>
+<li>기본적인 striding의 문법은: <code class="language-text">somelist[start: end: stride]</code><br>
 slicing과 비슷하게 start index와 end index를 입력하고, 얼마 간격으로 건너뛰기를 할 것인지 stride를 입력한다.</li>
 <li>
 <p>striding(건너뛰기)은 nth번째마다 뽑아서 가져올 수 있다.<br>
