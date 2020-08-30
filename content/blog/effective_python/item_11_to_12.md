@@ -29,7 +29,7 @@ socialImage: ""
 
 <br>
 
-- 기본적인 slicing 문법은 `somelist[startindex:endindex]` (start부터 포함되고, end는 포함되지 않는다.)
+- 기본적인 slicing 문법은 `somelist[startindex: endindex]` (start부터 포함되고, end는 포함되지 않는다.)
 
     ```python
     nums = [1, 2, 3, 4, 5, 6, 7]
@@ -162,7 +162,7 @@ slicing의 결과를 수정한다고 해도 original list에는 영향을 주지
 
 ## Item 12: Avoid Striding and Slicing in a Single Expression
 
-- 기본적인 striding의 문법은: `somelist[start:end:stride]`  
+- 기본적인 striding의 문법은: `somelist[start: end: stride]`  
 slicing과 비슷하게 start index와 end index를 입력하고, 얼마 간격으로 건너뛰기를 할 것인지 stride를 입력한다.
 - striding(건너뛰기)은 nth번째마다 뽑아서 가져올 수 있다.  
 slicing 할 때, striding을 사용하면 홀수번째와 짝수번째 index를 grouping 하기 쉽다.
