@@ -130,5 +130,5 @@ socialImage: ""
 
 ### _Reference_
 > [_PEP 572 -- Assignment Expressions_](https://www.python.org/dev/peps/pep-0572/)  
-> [_Walrus Operator in Python 3.8 - GeeksforGeeks_](htthttps://www.geeksforgeeks.org/walrus-operator-in-python-3-8/ps://www.geeksforgeeks.org/walrus-operator-in-python-3-8/)  
+> [_Walrus Operator in Python 3.8 - GeeksforGeeks_](https://www.geeksforgeeks.org/walrus-operator-in-python-3-8/)  
 > [_The most controversial Python feature | Walrus operator_](https://www.youtube.com/watch?v=KN2TTiGpDvM&feature=youtu.be)
