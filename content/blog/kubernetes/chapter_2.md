@@ -1,5 +1,5 @@
 ---
-title: "[Kubernetes in Action] Chapter 2: 도커와 쿠버네티스 첫걸음"
+title: "[Kubernetes in Action] Chapter 2. 도커와 쿠버네티스 첫걸음"
 date: "2020-09-08T23:12:03.284Z"
 template: "post"
 draft: true
@@ -7,7 +7,7 @@ category: "book"
 tags:
   - "Kubernetes in Action"
   - "k8s"
-description: "Monolith, Micro Service, Virtual Machine, Container, Docker, Kubernetes"
+description: "Docker, Kubernetes"
 socialImage: ""
 ---
 

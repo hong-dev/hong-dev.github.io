@@ -1,5 +1,5 @@
 ---
-title: "[Kubernetes in Action] Chapter 1: 쿠버네티스 소개"
+title: "[Kubernetes in Action] Chapter 1. 쿠버네티스 소개"
 date: "2020-09-07T23:12:03.284Z"
 template: "post"
 draft: true
