@@ -7,7 +7,7 @@ category: "book"
 tags:
   - "Kubernetes in Action"
   - "k8s"
-description: "Kubernetes, Service, Pod, Clinet"
+description: "Kubernetes, Service, Pod, Client"
 socialImage: ""
 ---
 
