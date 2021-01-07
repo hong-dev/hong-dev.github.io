@@ -1,6 +1,6 @@
 ---
-title: "[Effective Python: Second Edition] Item 1 ~ Item 3"
-date: "2020-08-19T10:12:03.284Z"
+title: "[Effective Python: Second Edition] Item 2: Follow the PEP 8 Style Guide"
+date: "2020-08-19T10:12:04.284Z"
 template: "post"
 draft: false
 category: "book"
@@ -10,67 +10,13 @@ tags:
   - "PEP 8"
 description: "
 [Part 1] Pythonic Thinking
-Item 1: Know Which Version of Python You’re Using
 Item 2: Follow the PEP 8 Style Guide
-Item 3: Know the Differences Between bytes and str
 "
 socialImage: ""
 ---
 
 
 > _Effective Python: Second Edition 내용 정리_
-
-
-# Part 1. Pythonic Thinking
-
-- **The Pythonic style isn’t regimented or enforced by the compiler.**  
-  (pythonic style은 compiler에 의해 엄격하게 관리되거나 실행되지 않는다.)
-
-  > ### compile vs interpreter
-  compile : 소스 코드를 기계어로 컴파일해서 실행파일을 만들고 실행  
-  interpreter : 코드를 한 줄씩 읽으면서 실행
-  
-  > python은 interpreter 방식의 언어    
-  **장점:** 수정이 용이 (컴파일 방식에서는, 수정 사항이 있을 때 소스 코드를 다시 컴파일 해야한다.)  
-  **단점:** 실행 속도가 느림 (인터프리터 방식은 실행 시마다 코드를 한 줄씩 기계어로 번역해야 하기 때문)
-
-<br>
-
-- **The Zen of Python**  
-`import this`를 하면 easter egg로 `the zen of python`이 나온다.  
-:arrow_right: 자세한 내용은 [The Zen of Python](https://hong-dev.github.io/python/the_zen_of_python/)
-  ```bash
-  # python interpreter를 열어서!
-  import this
-  ```
-
-<br>
-
-## Item 1: Know Which Version of Python You’re Using (파이썬 버전)
-
-- python 3가 가장 최신 버전이고 python 2는 2020.1.1 이후로 남아있지 않을 것이므로, python 3을 사용하자.
-- python version 정보를 확인할 수 있는 방법
-
-  ```bash
-  # terminal 창에서
-  python --version
-  python3 --version
-
-  >> Python 3.7.4
-  ```
-
-  ```python
-  # python interpreter 창에서
-  import sys
-
-  print(sys.version_info)
-  sys.version_info(major=3, minor=7, micro=4, releaselevel='final', serial=0)
-
-  print(sys.version)
-  3.7.4 (default, Aug 13 2019, 20:35:49)
-  ```
-
-<br>
 
 ## Item 2: Follow the PEP 8 Style Guide
 
@@ -137,68 +83,5 @@ IDE나 editor들도 linting tool이나 비슷한 plug-in들을 제공한다.
 
 <br>
 
-## Item 3: Know the Differences Between bytes and str
-
-- Python에서 character sequence를 나타내는 방식 : `bytes` (8-bit values), `str` (Unicode code points)
-- `Encode` : Unicode data ⇒ Binary data  
-`Decode` : Binary data ⇒ Unicode data
-- 어떤 encoding을 사용할 것인지 명시할 수 있는데, 보통 default는 `UTF-8`
-
-    ```python
-    bytes_ins.decode('utf-8')
-    str_ins.encode('utf-8')
-    ```
-
-<br>
-
-- 함수를 사용해서 input의 character sequence type을 확실히 하자.
-- system의 default text encoding을 조심하자. 잘 모른다면, encoding parameter를 확실하게 넣어주자.
-
-    ```python
-    # default text encoding 찾기
-    import locale
-    print(locale.getpreferredencoding())
-    ```
-
-<br>
-
-* **Unicode sandwich :**  
-  bytes는 밖에 두고 안에서는 str만 사용할 수 있도록, encoding과 decoding은 interface의 경계에서 이루어질 수 있도록 한다.
-
-<br>
-
-- bytes(`b'hello'`)와 str(`hello`)은 `>, ==, +, %` 등의 operator에서 같이 사용될 수 없다. (서로 대체될 수 없음)
-- **`%s`의 활용**
-
-    ```python
-    b'red %s' % 'blue'
-    >> TypeError
-
-    'red %s' % b'blue'
-    >> red b'blue'
-    # 예상한 return 값은 아니지만 위의 코드가 가능한 이유는,
-    # `__repr__` method를 호출하기 때문 (자세한 내용은 Item 75 참조)
-    ```
-
-<br>
-
-- **`with open` statement**  
-    기본적으로 file handles operation은 Unicode strings이 default로 요구되는 것이고, binary를 사용하려면 말을 해줘야한다.
-
-    ```python
-    with open('data.bin', 'w') as f:
-    	f.write(b'\xf1\xf2')
-    >> TypeError
-    # 'w'(write text mode) 대신에 'wb'(write binary mode)로 적어줘야한다.
-
-    with open('data.bin', 'r') as f:
-    	data = f.read()
-    >> UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in ...
-    # binary data는 읽을 때도 'r'이 아닌 'rb'로 읽어와야한다.
-    ```
-
-<br>
-
 ### _Reference_
 > [_Effective Python : Second Edition_](https://effectivepython.com/)  
-  [_컴파일 언어와 비교한 인터프리터 언어_](https://cjh5414.github.io/about-python-and-how-python-works/)
