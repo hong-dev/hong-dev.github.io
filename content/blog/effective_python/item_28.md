@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 28: Avoid More Than Two Control Subexpressions in Comprehensions"
+title: "Item 28: Avoid More Than Two Control Subexpressions in Comprehensions"
 date: "2021-04-17T21:32:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

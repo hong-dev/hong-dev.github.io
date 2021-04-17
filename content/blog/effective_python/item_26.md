@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 26: Define Function Decorators with 'functools.wraps'"
+title: "Item 26: Define Function Decorators with 'functools.wraps'"
 date: "2021-01-09T14:56:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

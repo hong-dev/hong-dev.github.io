@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 7: Prefer enumerate Over range"
+title: "Item 7: Prefer enumerate Over range"
 date: "2020-08-24T10:12:05.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

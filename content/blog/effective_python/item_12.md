@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 12: Avoid Striding and Slicing in a Single Expression"
+title: "Item 12: Avoid Striding and Slicing in a Single Expression"
 date: "2020-08-30T23:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

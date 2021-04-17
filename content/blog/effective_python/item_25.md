@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 25: Enforce Clarity with Keyword-Only and Positional-Only Arguments"
+title: "Item 25: Enforce Clarity with Keyword-Only and Positional-Only Arguments"
 date: "2021-01-08T06:41:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

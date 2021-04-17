@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 11: Know How to Slice Sequences"
+title: "Item 11: Know How to Slice Sequences"
 date: "2020-08-30T23:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

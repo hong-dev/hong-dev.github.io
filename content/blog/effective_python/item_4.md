@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 4: C-style, str.format(), F-Strings"
+title: "Item 4: C-style, str.format(), F-Strings"
 date: "2020-08-23T10:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 17: Prefer 'defaultdict' Over 'setdefault' to Handle Missing Items in Internal State"
+title: "Item 17: Prefer 'defaultdict' Over 'setdefault' to Handle Missing Items in Internal State"
 date: "2020-09-14T23:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

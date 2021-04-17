@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 27: Use Comprehensions Instead of 'map' and 'filter'"
+title: "Item 27: Use Comprehensions Instead of 'map' and 'filter'"
 date: "2021-01-12T21:01:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

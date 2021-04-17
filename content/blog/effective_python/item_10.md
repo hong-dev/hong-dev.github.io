@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 10: Prevent Repetition with Assignment Expressions"
+title: "Item 10: Prevent Repetition with Assignment Expressions"
 date: "2020-08-29T23:12:05.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

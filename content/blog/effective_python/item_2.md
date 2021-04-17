@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 2: Follow the PEP 8 Style Guide"
+title: "Item 2: Follow the PEP 8 Style Guide"
 date: "2020-08-19T10:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

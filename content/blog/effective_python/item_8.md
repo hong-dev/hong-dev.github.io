@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 8: Use zip to Process Iterators in Parallel"
+title: "Item 8: Use zip to Process Iterators in Parallel"
 date: "2020-08-29T23:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

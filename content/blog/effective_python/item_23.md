@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 23: Provide Optional Behavior with Keyword Arguments"
+title: "Item 23: Provide Optional Behavior with Keyword Arguments"
 date: "2020-09-20T16:54:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

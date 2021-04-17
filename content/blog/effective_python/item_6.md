@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 6: Prefer Multiple Assignment Unpacking Over Indexing"
+title: "Item 6: Prefer Multiple Assignment Unpacking Over Indexing"
 date: "2020-08-24T10:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

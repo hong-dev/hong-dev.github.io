@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 24: Default Arguments"
+title: "Item 24: Default Arguments"
 date: "2020-09-21T23:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

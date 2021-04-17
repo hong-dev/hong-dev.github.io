@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 5: Write Helper Functions Instead of Complex Expressions"
+title: "Item 5: Write Helper Functions Instead of Complex Expressions"
 date: "2020-08-24T10:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

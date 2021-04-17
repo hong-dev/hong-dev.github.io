@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 22: Reduce Visual Noise with Variable Positional Arguments"
+title: "Item 22: Reduce Visual Noise with Variable Positional Arguments"
 date: "2020-09-20T16:54:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

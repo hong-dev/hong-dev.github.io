@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 14: list.sort(key=...)"
+title: "Item 14: list.sort(key=...)"
 date: "2020-09-06T11:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

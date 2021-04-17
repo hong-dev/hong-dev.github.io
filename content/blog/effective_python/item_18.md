@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 18: Know How to Construct Key-Dependent Default Values with __missing__"
+title: "Item 18: Know How to Construct Key-Dependent Default Values with __missing__"
 date: "2020-09-14T23:12:05.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

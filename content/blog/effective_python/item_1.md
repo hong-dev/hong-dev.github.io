@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 1: Know Which Version of Python You’re Using"
+title: "Item 1: Know Which Version of Python You’re Using"
 date: "2020-08-19T10:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

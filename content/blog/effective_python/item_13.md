@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 13: asterisk(*) for unpacking"
+title: "Item 13: asterisk(*) for unpacking"
 date: "2020-09-05T23:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

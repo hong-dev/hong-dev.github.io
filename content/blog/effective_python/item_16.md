@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 16: Prefer 'get' Over 'in' and 'KeyError' to Handle Missing Dictionary Keys"
+title: "Item 16: Prefer 'get' Over 'in' and 'KeyError' to Handle Missing Dictionary Keys"
 date: "2020-09-14T23:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

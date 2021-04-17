@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 19: Never Unpack More Than Three Variables When Functions Return Multiple Values"
+title: "Item 19: Never Unpack More Than Three Variables When Functions Return Multiple Values"
 date: "2020-09-15T09:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

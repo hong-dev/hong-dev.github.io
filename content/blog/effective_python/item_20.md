@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 20: Prefer Raising Exceptions to Returning None"
+title: "Item 20: Prefer Raising Exceptions to Returning None"
 date: "2020-09-15T09:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

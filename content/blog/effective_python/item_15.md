@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 15: Dictionary Insertion Ordering"
+title: "Item 15: Dictionary Insertion Ordering"
 date: "2020-09-13T11:12:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

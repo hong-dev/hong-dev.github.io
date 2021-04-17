@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 3: Know the Differences Between bytes and str"
+title: "Item 3: Know the Differences Between bytes and str"
 date: "2020-08-19T10:12:05.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

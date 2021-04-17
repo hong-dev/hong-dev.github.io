@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 21: Closure and Scope"
+title: "Item 21: Closure and Scope"
 date: "2020-09-19T16:54:03.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"

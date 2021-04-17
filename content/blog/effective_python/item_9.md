@@ -1,9 +1,9 @@
 ---
-title: "[Effective Python: Second Edition] Item 9: Avoid else Blocks After for and while Loops"
+title: "Item 9: Avoid else Blocks After for and while Loops"
 date: "2020-08-29T23:12:04.284Z"
 template: "post"
 draft: false
-category: "book"
+category: "[Effective Python]"
 tags:
   - "Effective Python"
   - "Python"
