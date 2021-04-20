@@ -14,7 +14,7 @@ socialImage: ""
 ---
 
 
-> _Core JavaScript 내용 정리_
+> _Core JavaScript(코어 자바스크립트) 내용 정리_
 
 <br>
 
@@ -609,4 +609,4 @@ socialImage: ""
 <br>
 
 ### _Reference_
-> [_Core JavaScript_](http://www.yes24.com/Product/Goods/78586788)
+> [_Core JavaScript(코어 자바스크립트)_](http://www.yes24.com/Product/Goods/78586788)
