@@ -8,7 +8,7 @@ tags:
   - "Core JavaScript"
   - "JavaScript"
 description: "
-Chapter 1: Data Type (Primitive type vs Reference type)
+Chapter 2: Execution Context
 "
 socialImage: ""
 ---
