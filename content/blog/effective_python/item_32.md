@@ -2,7 +2,7 @@
 title: "Item 32: Consider Generator Expressions for Large List Comprehensions"
 date: "2021-05-01T22:58:03.284Z"
 template: "post"
-draft: false
+draft: true
 category: "[Effective Python]"
 tags:
   - "Effective Python"

@@ -2,7 +2,7 @@
 title: "Item 31: Be Defensive When Iterating Over Arguments"
 date: "2021-04-30T20:15:03.284Z"
 template: "post"
-draft: false
+draft: true
 category: "[Effective Python]"
 tags:
   - "Effective Python"
