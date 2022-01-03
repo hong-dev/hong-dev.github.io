@@ -9,7 +9,7 @@ module.exports = {
     github: `hong-dev`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
-    instagram: `hong._.dev`, // Your LinkedIn account
+    instagram: ``, // Your LinkedIn account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
   keywords: [`blog`],

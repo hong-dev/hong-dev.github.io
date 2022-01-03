@@ -10,7 +10,7 @@ lang: 'en'
 
 # HONG_DEV
 
-<img src="https://user-images.githubusercontent.com/53142539/80919488-19c9d780-8da5-11ea-8b12-3d98543d4112.JPG" alt="HONG" style="width:220px; border-radius:50%;" loading="eager">
+<img src="https://user-images.githubusercontent.com/53142539/147934987-04ee6f8f-671c-418c-b568-b9a058bf4f08.jpg" alt="HONG" style="width:220px; border-radius:50%;" loading="eager">
 
 <br>
 
@@ -18,14 +18,10 @@ lang: 'en'
 
 <br>
 
-🎃 Trying to be a better person
+:baby_chick: Minimal Life
 
-:fire: 좌우명은 해봐야 안다! 무의미한 경험은 없다고 생각합니다.
+:green_apple: Zero waste
 
-:earth_americas: 취미는 취미찾기! 새로운 것을 보고 듣고 배우는 것을 좋아합니다.
-
-:musical_note: 다같이 으쌰으쌰하며 재밌게 일하는 게 좋습니다.
-
-:rocket: 자비스와 함께 일하는 게 꿈입니다 :)
+🎃 Trying to be better
 
 </div>
