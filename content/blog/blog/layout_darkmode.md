@@ -32,12 +32,12 @@ export const Layout = ({ location, title, children }) => {
     <React.Fragment>
       <Top title={title} location={location} rootPath={rootPath} />
       <div
-        style={{
+        style={% raw %}{{
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(35), //여기 숫자를 바꾸면 너비가 변경된다!
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
+        }}{% endraw %}
       >
         <ThemeSwitch />
         <Header title={title} location={location} rootPath={rootPath} />
