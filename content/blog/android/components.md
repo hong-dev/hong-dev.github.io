@@ -6,6 +6,10 @@ draft: false
 category: "android"
 tags:
   - "Android"
+  - "Activity"
+  - "Service"
+  - "Broadcast Receiver"
+  - "Content Provider"
 description: "Android Application Components"
 socialImage: ""
 ---
