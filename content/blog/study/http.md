@@ -257,8 +257,3 @@ Referrer-Policy: no-referrer
 - API 개발을 하는 백앤드 개발자들이 싫어하는 코드.
 
 참조: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-
-```
-Reference:
-https://stackoverflow.com/c/wecode/questions/308
-```

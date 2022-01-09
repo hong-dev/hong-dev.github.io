@@ -87,10 +87,3 @@ def more_than_half(nums):
 - **list.sort()** 라고 하면 기본이 오름차순이고, **list.sort(reverse=True)** 로 하면 내림차순이다.
 - key는 어떤 것을 기준으로 정렬할지를 말해준다.
 
-
-<p>
-
-```
-Reference:
-wecode codekata day7 replit
-```

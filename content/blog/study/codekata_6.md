@@ -67,9 +67,3 @@ def complexNumberMultiply2(a, b):
   return '%d+%di' % (a1 * b1 - a2 * b2, a1 * b2 + a2 * b1)
 ```
 
-
-<br>
-<br>
-
-    Reference:
-    wecode codekata replit day11

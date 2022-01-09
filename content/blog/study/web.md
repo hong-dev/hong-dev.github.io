@@ -37,7 +37,7 @@ socialImage: "Screenshot from 2020-02-16 19-33-32.png"
     IP 주소를 외워서 접속할 수 없기 때문에 domain으로 접속한다.
 
 - IP와 도메인이 1:1로 매칭되어 있다\
-    ex) www.wecode.com
+    ex) www.naver.com
 
 ![Domain](https://user-images.githubusercontent.com/53142539/77428714-e5651200-6e1b-11ea-9dc6-bbe912475228.png)
 
@@ -71,7 +71,3 @@ socialImage: "Screenshot from 2020-02-16 19-33-32.png"
 - spa(single page application) vs csr(client side rendering) vs ssr(server side rendering)
 - aws 세팅 및 배포
 
-```
-Reference:
-wecode 예리님 session 'How the web works?'
-```

@@ -58,10 +58,3 @@ def two_sum(nums, target):
 		index_map[num] = i
 	return None
 ```
-
-<p>
-
-```
-Reference:
-wecode codekata replit
-```

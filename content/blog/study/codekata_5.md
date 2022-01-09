@@ -55,8 +55,3 @@ def top_k(nums, k):
             if len(ret) == k:
                 return ret
 ```
-<br>
-<br>
-
-    Reference:
-    wecode codekata replit day9

@@ -80,7 +80,3 @@ def roman_to_num(string):
     return  numbers.get(s[:1]) + roman_to_num(s[1:])
 ```
 
-<p>
-
-    Reference:
-    wecode codekata day6

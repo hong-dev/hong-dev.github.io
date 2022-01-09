@@ -46,9 +46,3 @@ function meetAt(year, month, date) {
   }
 }
 ```
-<p>
-
-```
-  Reference;
-  wecode javascript relpit
-```

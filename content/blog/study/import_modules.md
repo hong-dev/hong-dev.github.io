@@ -121,11 +121,3 @@ from .subpackage1.module1 import function1
 from ..module1 import class1
 ```
 
-<p>
-
-```
-Reference:
-- wecode replit 'Python - How Import Statement Finds Modules & Packages'
-- https://stackoverflow.com/questions/8370206/how-to-get-a-list-of-built-in-modules-in-python
-- https://hashcode.co.kr/questions/476/%EB%AA%A8%EB%93%88%EC%9D%B4-%EC%96%B4%EB%8A%90-%EC%9C%84%EC%B9%98path%EC%97%90-%EC%9E%88%EB%8A%94%EC%A7%80-%EC%95%8C%EC%95%84%EB%82%B4%EA%B3%A0-%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4
-```

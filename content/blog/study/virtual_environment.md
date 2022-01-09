@@ -58,10 +58,3 @@ conda env export> "가상환경이름.yaml"
 ```python
 conda env create -f "가상환경이름.yaml"
 ```
-
-<p>
-
-```    
-Reference:
-https://stackoverflow.com/c/wecode/questions/525/526#
-```

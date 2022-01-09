@@ -53,9 +53,3 @@ example: 함수 안의 함수 호출, 브라우저 뒤로가기 기능, stackove
 2. **Queue** : FIFO(First In First Out)\
 example: 맛집 예약 시스템, 줄 서기, OS 프로세스
 
-<br>
-<br>
-
-```
-Reference: wecode stackoverflow "What Is Data Sturcture?"
-```

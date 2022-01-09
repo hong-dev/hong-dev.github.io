@@ -97,9 +97,3 @@ release notes 6월 3일, github에서 메일이 온 것은 6월 6일.
 ### _Reference_
 
 > [_django release notes_](https://docs.djangoproject.com/en/3.0/releases/)
-
-
-<br>
-<br>
-
-> \#wecode #위코드

@@ -62,9 +62,3 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 - history-substring-search
 - colored-man-pages
 
-<p>
-
-```
-Reference:
-wecode stackoverflow: https://stackoverflow.com/c/wecode/questions/303/304#304
-```

@@ -95,10 +95,3 @@ $ history | grep ls  #history가 출력하는 값들 중 ls만 필터링하여 �
     $ man ls  #ls 사용법 출력
     $ tldr ls  #간략한 ls 사용법 출력
 ```
-<p>
-
-
-```
-Reference:
-wecode stackoverflow: https://stackoverflow.com/c/wecode/questions/301/302#302
-```

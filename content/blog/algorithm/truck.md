@@ -227,7 +227,3 @@ class를 만들고 사용하는 방법부터 공부해야겠다.
 <br>
 
 > Reference: [프로그래머스 스택/큐 다리를 지나는 트럭 문제](https://programmers.co.kr/learn/challenges)
-
-<br>
-
-> \#wecode #위코드

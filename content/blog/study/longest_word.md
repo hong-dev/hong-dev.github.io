@@ -61,9 +61,3 @@ list_name.sort()              #오름차순
 
 list_name.sort(reverse=True)  #내림차순
 ```
-<p>
-
-```
-Reference;
-wecode 2주차 python exam replit
-```

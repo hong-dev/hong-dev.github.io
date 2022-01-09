@@ -43,8 +43,3 @@ socialImage: ""
 <p>
 
 **! 코드의 가독성이 매우 중요하다 !**
-
-```
-Reference:
-wecode 은우님 session 'Foundation kick off'
-```

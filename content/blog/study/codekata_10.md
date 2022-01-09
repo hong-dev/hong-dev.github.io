@@ -51,11 +51,3 @@ def moveZeroes(nums):
       
   return nums
 ```
-
-
-
-<br>
-<br>
-
-    Reference:
-    wecode codekata replit

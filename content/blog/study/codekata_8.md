@@ -46,11 +46,3 @@ def reverseString(s) :
         
     return s
 ```
-
-
-
-<br>
-<br>
-
-    Reference:
-    wecode codekata replit day12

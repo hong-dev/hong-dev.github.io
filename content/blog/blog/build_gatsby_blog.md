@@ -230,5 +230,3 @@ default branch를 develop으로 바꾸고 update를 눌러 적용한다.
 <br>
 
 > Reference: [Gatsby로 블로그 만들기](https://yeri-kim.github.io/posts/how-to-install-gatsby/)
-
-> \#wecode #위코드

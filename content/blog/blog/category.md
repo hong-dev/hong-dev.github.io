@@ -166,8 +166,3 @@ graphql을 사용하여 data를 가져와야 하는데, blog-post 페이지에�
         }
   `
 ```
-
-<br>
-<br>
-
-> \#wecode #위코드

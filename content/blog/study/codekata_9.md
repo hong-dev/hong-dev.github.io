@@ -57,10 +57,3 @@ def get_max_area(height):
 	return area 
 ```
 
-
-
-<br>
-<br>
-
-    Reference:
-    wecode codekata replit
