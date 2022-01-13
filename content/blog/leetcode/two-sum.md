@@ -1,14 +1,16 @@
 ---
-title: "[LeetCode #1] Two Sum"
+title: "[Array] #1 Two Sum"
 date: "2022-01-09T15:51:03.284Z"
 template: "post"
 draft: false
-category: "algorithm"
+category: "leetcode"
 tags:
   - "Python"
   - "Algorithm"
   - "List"
-description: "Algorithm Solution: LeetCode Two Sum"
+  - "Array"
+  - "LeetCode"
+description: "Algorithm Problem: Array #1 Two Sum"
 socialImage: ""
 ---
 
