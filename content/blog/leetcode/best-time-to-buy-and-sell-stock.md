@@ -10,6 +10,7 @@ tags:
   - "List"
   - "Array"
   - "LeetCode"
+  - "Dynamic Programming"
 description: "Algorithm Problem: Array #121 Best Time to Buy and Sell Stock"
 socialImage: ""
 ---

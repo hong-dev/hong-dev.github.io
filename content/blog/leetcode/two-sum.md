@@ -10,6 +10,7 @@ tags:
   - "List"
   - "Array"
   - "LeetCode"
+  - "Dynamic Programming"
 description: "Algorithm Problem: Array #1 Two Sum"
 socialImage: ""
 ---
