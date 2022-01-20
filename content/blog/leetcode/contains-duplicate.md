@@ -26,7 +26,7 @@ socialImage: ""
 
 <br>
 
-## My Solution 1
+## My Solution
 * Runtime: 953 ms
 * Memory: 26 MB
 
