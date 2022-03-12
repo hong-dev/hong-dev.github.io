@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://hong-dev.github.io/java/java-native-interface/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/java/anonymous-class/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/java/overriding-overloading/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/java/access-modifiers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -107,8 +108,8 @@
 <url> <loc>https://hong-dev.github.io/study/codekata_8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/codekata_7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/join/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hong-dev.github.io/study/models/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/codekata_6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hong-dev.github.io/study/models/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/error/module_not_found/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/codekata_5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/modeling/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -146,6 +147,7 @@
 <url> <loc>https://hong-dev.github.io/study/strings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/function_parameters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/python_variables/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hong-dev.github.io/study/argument/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/array_method/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/data_type/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/date_time/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -153,9 +155,8 @@
 <url> <loc>https://hong-dev.github.io/study/math_expressions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/parameter_argument/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/random_number/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hong-dev.github.io/study/variables/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/text_format/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hong-dev.github.io/study/argument/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hong-dev.github.io/study/variables/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/study/web_history/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hong-dev.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
