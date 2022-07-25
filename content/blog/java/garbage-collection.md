@@ -75,3 +75,4 @@ socialImage: ""
 ### _Reference_ 
 >[_What is Garbage Collection in Java and Why is it Important?_](https://www.eginnovations.com/blog/what-is-garbage-collection-java/)  
 >[_Garbage Collection(가비지 컬렉션)의 개념 및 동작 원리_](https://mangkyu.tistory.com/118)
+>[_Garbage Collection in Java_](https://www.scaler.com/topics/garbage-collection-in-java/)
